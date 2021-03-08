@@ -1,32 +1,44 @@
 # Note Taker
+An application to write and save note with Express.js back end and will save and retrieve note data from JSON file.
+
+### Github : https://github.com/sylviaprabudy/note-taker
+
+### Deployed app : http://note-taker-90210.herokuapp.com/
+
 
 ## Description
-Note Taker is an application that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file..
+An application to write and save note with Express.js back end and will save and retrieve note data from JSON file.
 
-## Check it out
-[Note Taker](TODO)
+## User Story
+```
+- AS A small business owner
+- I WANT to be able to write and save notes
+- SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
 
-# User Story
-## As a small business owner
-* I WANT to be able to write and save notes
-* SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
-### Acceptance Criteria
-* GIVEN a note-taking application
-* WHEN I open the Note Taker
-* THEN I am presented with a landing page with a link to a notes page
-* WHEN I click on the link to the notes page
-* THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-* WHEN I enter a new note title and the note’s text
-* THEN a Save icon appears in the navigation at the top of the page
-* WHEN I click on the Save icon
-* THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-* WHEN I click on an existing note in the list in the left-hand column
-* THEN that note appears in the right-hand column
-* WHEN I click on the Write icon in the navigation at the top of the page
-* THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand columnd
+## Usage
+- Application will allow user to be able to add note's title and description
+- Application will allow user to be able to save the notes and won't lose them even they refresh the page
+- Application will allow user to be delete notes
 
-# Mock-Up
-<img src="./docs/images/11-express-homework-demo-01.png" alt="My Team View" title="Mock of My Team View" width="400" height="300" />
 
-<img src="./docs/images/11-express-homework-demo-02.png" alt="My Team View" title="Mock of My Team View" width="400" height="300" />
+## Screenshots
+![](public/assets/img/NoteTaker_LP.png)
+![](public/assets/img/NoteTaker_WriteNotes.png)
+![](public/assets/img/NoteTaker_SavedNotes.png)
+
+
+## Technologies Use
+<p><a href="https://nodejs.org/">Node.js</a></p>
+<p><a href="https://www.npmjs.com/">NPM</a></p>
+<p><a href="https://www.npmjs.com/package/express">Express.js</a></p>
+<p><a href="https://www.npmjs.com/package/inquirer">Inquirer.js</a></p>
+<p><a href="https://www.npmjs.com/package/uuid">uuid</a></p>
+<p><a href="https://getbootstrap.com/">Bootstrap</a></p>
+<p><a href="https://fonts.google.com/">Google Fonts</a></p>
+
+
+## Contributor:
+Ephraim Marbloe ©2020 All Rights Reserved.
+- - -
